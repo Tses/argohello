@@ -1,16 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    deployment.kubernetes.io/revision: "3"
-  creationTimestamp: "2023-07-16T10:14:37Z"
-  generation: 3
+
+
   labels:
     app: devops
   name: devops
   namespace: finastra
-  resourceVersion: "57153"
-  uid: f0bcf4ea-7376-4377-9c0e-9c4e3d4282ec
+
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
