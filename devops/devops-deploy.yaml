@@ -27,7 +27,7 @@ spec:
         app: devops
     spec:
       containers:
-      - image: docker.io/tses/devops:19
+      - image: docker.io/tses/devops:18
         imagePullPolicy: IfNotPresent
         name: devops
         resources: {}
